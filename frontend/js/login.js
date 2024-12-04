@@ -54,7 +54,7 @@ btn.addEventListener("click", (e) => {
     .then((data) => {
       console.log("Login successful:", data); // Log successful login data
       alert("Login successful!");
-      window.location.href = "register.html"; // Redirect to dashboard after success
+      window.location.href = "task.html"; // Redirect to dashboard after success
     })
     .catch((error) => {
       console.error("Error:", error); // Log any errors
